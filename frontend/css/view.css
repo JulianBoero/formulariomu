@@ -30,10 +30,16 @@ p.centrado {
 {
 	background:#;
 	
-	margin:0 auto;
+	
 	text-align:center;
 	width:700px;
+	
+	display: inline-block;
+	
 }
 
-
-<div class="fb-page" data-href="https://www.facebook.com/Ender-106994351019961/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ender-106994351019961/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ender-106994351019961/">Ender</a></blockquote></div>
+.fb-page 
+{
+	
+	
+}

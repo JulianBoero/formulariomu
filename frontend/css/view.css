@@ -1,0 +1,39 @@
+label.description
+{
+	border:none;
+	color:#00aae4;
+	display:block;
+	font-size:100%;
+	font-weight:700;
+	line-height:150%;
+	padding:0 0 1px;
+}
+
+input {
+    width: 150px;
+    height: 25px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    right: -10px;
+	top: -1px;
+    
+}
+
+p.centrado {
+  text-align: center;
+}
+
+
+#form_container
+{
+	background:#;
+	
+	margin:0 auto;
+	text-align:center;
+	width:700px;
+}
+
+
+<div class="fb-page" data-href="https://www.facebook.com/Ender-106994351019961/" data-tabs="timeline" data-width="500" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ender-106994351019961/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ender-106994351019961/">Ender</a></blockquote></div>

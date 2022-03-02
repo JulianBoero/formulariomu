@@ -1,0 +1,75 @@
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>MENDOZA MU SERVER</title>
+		<link rel="stylesheet" type="text/css" href="css/view.css" media="all">
+		<script
+				  src="https://code.jquery.com/jquery-3.6.0.min.js"
+				  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+				  crossorigin="anonymous">
+		</script>
+		<script type= "text/javascript" src= "../controlador/registromumendoza.js"></script>
+	</head>
+
+	<body bgcolor="black">
+	
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v13.0" nonce="AjkX0GES"></script>
+	
+	<p class="centrado">
+	<img src="img/arriba.jpg">
+	<p>
+	
+	<div class="fb-page" data-href="https://www.facebook.com/Ender-106994351019961/" data-tabs="timeline" data-width="500" data-height="500" 
+	data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote 
+	cite="https://www.facebook.com/Ender-106994351019961/" class="fb-xfbml-parse-ignore"><a 
+	href="https://www.facebook.com/Ender-106994351019961/">Ender</a></blockquote></div>	
+	
+	<div id="form_container">
+	
+  
+			<form id="registromumendoza" method="post">
+				
+				<h1> <FONT SIZE=6 COLOR="lightblue"> Mendoza Mu Server</FONT> </h1>
+					
+						<label class="description" for="nombredeusuario">Nombre de Usuario</label>
+						<input id="nombredeusuario" name= "nombredeusuario" class="element text" maxlength="255" size="14" value=""/>
+						
+						<br></br>	
+						<label class="description" for="nombre">Nombre</label>
+						<input id="nombre" name="nombre" class="description" maxlength="255" size="8" value=""/>
+						
+						<br></br>	
+						<label class="description" for="apellido">Apellido</label>
+						<input id="apellido" name= "apellido" class="description" maxlength="255" size="14" value=""/>
+							
+						<br></br>
+						<label class="description" for="email">Email</label>
+						<input id="email" name="email" type="text" class="description" maxlength="255" value=""/> 
+						
+						<br></br>	
+						<label class="description" for="contrasenia">Contraseña</label>
+						<input id="contrasenia" name="contrasenia"  class="description" maxlength="255" size="8" value=""/>
+						
+						<br></br>	
+						<label class="description" for="preguntadeseguridad">Pregunta de Seguridad </label>
+						<input id="preguntadeseguridad" name="preguntadeseguridad" class="description" maxlength="255" size="8" value=""/>
+						
+						<br></br>	
+						<label class="description" for="respuestadeseguridad">Respuesta de Seguridad </label>
+						<input id="respuestadeseguridad" name="respuestadeseguridad" class="description" maxlength="255" size="8" value=""/>
+						
+						<br></br>	
+						<label class="description" for="idseguridad">ID de Seguridad </label>
+						<input id="idseguridad" name="idseguridad"  class="description" maxlength="255" size="8" value=""/>
+						
+						<br></br>
+						<input type="button" id="botonregistrarse" value="Registrarse">
+			</form>
+			<p id="msg"></p>	
+			
+		
+	</body>
+
+</html>
